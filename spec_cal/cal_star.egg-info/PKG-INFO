@@ -1,10 +1,10 @@
 Metadata-Version: 2.1
 Name: cal-star
-Version: 0.0.2
+Version: 0.0.3
 Summary: This project is used for standard star filed calibration.
 Home-page: https://github.com/git-yuliang/standard_star.git
 Author: ('Yu Liang',)
-Author-email: ('yuliang@shao.ac.cn',)
+Author-email: yuliang@shao.ac.cn
 License: MIT
 Platform: UNKNOWN
 Classifier: License :: OSI Approved :: MIT License

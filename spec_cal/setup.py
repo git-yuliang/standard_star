@@ -15,10 +15,10 @@ from setuptools import find_packages, setup, Command
 NAME = 'cal_star'
 DESCRIPTION = 'This project is used for standard star filed calibration.'
 URL = 'https://github.com/git-yuliang/standard_star.git'
-EMAIL = "yuliang@shao.ac.cn",
+EMAIL = "liangyuak@163.com",#"yuliang@shao.ac.cn",
 AUTHOR = "Yu Liang",
 REQUIRES_PYTHON = '>=3.7.0'
-VERSION = '0.0.2'
+VERSION = '0.0.3'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
@@ -107,10 +107,10 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     author=AUTHOR,
-    author_email=EMAIL,
+    author_email="yuliang@shao.ac.cn",
     python_requires=REQUIRES_PYTHON,
     url=URL,
-    packages=find_packages(),
+    packages=find_packages(where="src"),
     # If your package is a single module, use this instead of 'packages':
     # py_modules=['mypackage'],
 
@@ -134,18 +134,18 @@ setup(
     # $ setup.py publish support.
     cmdclass={'upload': UploadCommand,
     },      
-    package = {'refdata'},
-    package_dir={'cal_star': 'src/refdata'},
+    package = {'cal_star'},
+    package_dir={'cal_star': 'src/cal_star'},
     package_data={'cal_star': [ 
-                        'src/refdata/1d_sp/Hamuy1992/*.dat',
-                        'src/refdata/1d_sp/oke1990/*.dat',
-                        'src/refdata/1d_sp/Massey1998/*.dat',
-                        'src/refdata/1d_sp/ctiocal/*.dat',
-                        'src/refdata/1d_sp/gemini/*.dat',
-                        'src/refdata/starlists/Hamuy1992/*.xlsx',
-                        'src/refdata/starlists/oke1990/*.xlsx',
-                        'src/refdata/starlists/Massey1998/*.xlsx',
-                        'src/refdata/starlists/ctiocal/*.xlsx',
-                        'src/refdata/starlists/gemini/*.xlsx',
+                        './refdata/1d_sp/Hamuy1992/*.dat',
+                        './refdata/1d_sp/oke1990/*.dat',
+                        './refdata/1d_sp/Massey1998/*.dat',
+                        './refdata/1d_sp/ctiocal/*.dat',
+                        './refdata/1d_sp/gemini/*.dat',
+                        './refdata/starlists/Hamuy1992/*.xlsx',
+                        './refdata/starlists/oke1990/*.xlsx',
+                        './refdata/starlists/Massey1998/*.xlsx',
+                        './refdata/starlists/ctiocal/*.xlsx',
+                        './refdata/starlists/gemini/*.xlsx',
      ]},  
 )
