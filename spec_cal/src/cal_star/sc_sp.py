@@ -18,7 +18,7 @@ import extinction
 import pdb
 
 path = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
-refdata = os.path.join(path, r'cal_star/refdata')
+refdata = os.path.join(path, r'cal_star\refdata')
 
 class read_template(object):
 
@@ -57,7 +57,7 @@ class read_template(object):
                         'gemini',
                         'ctiocal',
                         'spec50cal']:            
-            template_filename = os.path.join(refdata, '1d_sp', starlist,star,'.dat')
+            template_filename = os.path.join(refdata, '1d_sp', starlist, star+'.dat')
             cat = pd.read_csv(template_filename, sep='\s+')
             template_wave = cat.iloc[:,0].values      # unit should be in Angstrom
             template_flux = cat.iloc[:,1].values      # unit should be in erg/s/cm^2/A    

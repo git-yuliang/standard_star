@@ -1,3 +1,3 @@
 
-__all__ = ['spec_config','sc_sp', ]
+__all__ = ['sc_skymap','sc_sp','sc_photometry' ]
 

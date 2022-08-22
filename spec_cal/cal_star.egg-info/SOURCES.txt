@@ -5,15 +5,29 @@ cal_star.egg-info/dependency_links.txt
 cal_star.egg-info/requires.txt
 cal_star.egg-info/top_level.txt
 src/cal_star/__init__.py
+src/cal_star/sc_photometry.py
+src/cal_star/sc_skymap.py
 src/cal_star/sc_sp.py
-src/cal_star/spec_config.py
+src/cal_star/demo/demo.ipynb
+src/cal_star/refdata/1d_sp/Hamuy1992/CD -32 9927.dat
 src/cal_star/refdata/1d_sp/Hamuy1992/CD -34 241.dat
-src/cal_star/refdata/1d_sp/Hamuy1992/cd32.dat
-src/cal_star/refdata/1d_sp/Hamuy1992/eg21.dat
-src/cal_star/refdata/1d_sp/Hamuy1992/eg274.dat
-src/cal_star/refdata/1d_sp/Hamuy1992/f110.dat
-src/cal_star/refdata/1d_sp/Hamuy1992/f56.dat
-src/cal_star/refdata/1d_sp/Hamuy1992/h600.dat
+src/cal_star/refdata/1d_sp/Hamuy1992/EG 21.dat
+src/cal_star/refdata/1d_sp/Hamuy1992/EG 274.dat
+src/cal_star/refdata/1d_sp/Hamuy1992/Feige 110.dat
+src/cal_star/refdata/1d_sp/Hamuy1992/Feige 56.dat
+src/cal_star/refdata/1d_sp/Hamuy1992/Hiltner 600.dat
+src/cal_star/refdata/1d_sp/Hamuy1992/LTT 1020.dat
+src/cal_star/refdata/1d_sp/Hamuy1992/LTT 1788.dat
+src/cal_star/refdata/1d_sp/Hamuy1992/LTT 2415.dat
+src/cal_star/refdata/1d_sp/Hamuy1992/LTT 3218.dat
+src/cal_star/refdata/1d_sp/Hamuy1992/LTT 3864.dat
+src/cal_star/refdata/1d_sp/Hamuy1992/LTT 4364.dat
+src/cal_star/refdata/1d_sp/Hamuy1992/LTT 4816.dat
+src/cal_star/refdata/1d_sp/Hamuy1992/LTT 6248.dat
+src/cal_star/refdata/1d_sp/Hamuy1992/LTT 7379.dat
+src/cal_star/refdata/1d_sp/Hamuy1992/LTT 7987.dat
+src/cal_star/refdata/1d_sp/Hamuy1992/LTT 9239.dat
+src/cal_star/refdata/1d_sp/Hamuy1992/LTT 9491.dat
 src/cal_star/refdata/1d_sp/Hamuy1992/hr1544.dat
 src/cal_star/refdata/1d_sp/Hamuy1992/hr3454.dat
 src/cal_star/refdata/1d_sp/Hamuy1992/hr4468.dat
@@ -24,18 +38,31 @@ src/cal_star/refdata/1d_sp/Hamuy1992/hr7596.dat
 src/cal_star/refdata/1d_sp/Hamuy1992/hr7950.dat
 src/cal_star/refdata/1d_sp/Hamuy1992/hr8634.dat
 src/cal_star/refdata/1d_sp/Hamuy1992/hr9087.dat
-src/cal_star/refdata/1d_sp/Hamuy1992/l1020.dat
-src/cal_star/refdata/1d_sp/Hamuy1992/l1788.dat
-src/cal_star/refdata/1d_sp/Hamuy1992/l2415.dat
-src/cal_star/refdata/1d_sp/Hamuy1992/l3218.dat
-src/cal_star/refdata/1d_sp/Hamuy1992/l3864.dat
-src/cal_star/refdata/1d_sp/Hamuy1992/l4364.dat
-src/cal_star/refdata/1d_sp/Hamuy1992/l4816.dat
-src/cal_star/refdata/1d_sp/Hamuy1992/l6248.dat
-src/cal_star/refdata/1d_sp/Hamuy1992/l7379.dat
-src/cal_star/refdata/1d_sp/Hamuy1992/l7987.dat
-src/cal_star/refdata/1d_sp/Hamuy1992/l9239.dat
-src/cal_star/refdata/1d_sp/Hamuy1992/l9491.dat
+src/cal_star/refdata/1d_sp/Massey1998/BD +28 4211.dat
+src/cal_star/refdata/1d_sp/Massey1998/Cyg OB2 No.9.dat
+src/cal_star/refdata/1d_sp/Massey1998/EG 81.dat
+src/cal_star/refdata/1d_sp/Massey1998/Feige 110.dat
+src/cal_star/refdata/1d_sp/Massey1998/Feige 34.dat
+src/cal_star/refdata/1d_sp/Massey1998/Feige 66.dat
+src/cal_star/refdata/1d_sp/Massey1998/Feige 67.dat
+src/cal_star/refdata/1d_sp/Massey1998/G 191B2B.dat
+src/cal_star/refdata/1d_sp/Massey1998/GD 140.dat
+src/cal_star/refdata/1d_sp/Massey1998/HD 192281.dat
+src/cal_star/refdata/1d_sp/Massey1998/HD 217086.dat
+src/cal_star/refdata/1d_sp/Massey1998/HZ 14.dat
+src/cal_star/refdata/1d_sp/Massey1998/HZ 44.dat
+src/cal_star/refdata/1d_sp/Massey1998/Hiltner 600.dat
+src/cal_star/refdata/1d_sp/Massey1998/PG 0205+134.dat
+src/cal_star/refdata/1d_sp/Massey1998/PG 0216+032.dat
+src/cal_star/refdata/1d_sp/Massey1998/PG 0310+149.dat
+src/cal_star/refdata/1d_sp/Massey1998/PG 0823+546.dat
+src/cal_star/refdata/1d_sp/Massey1998/PG 0846+249.dat
+src/cal_star/refdata/1d_sp/Massey1998/PG 0934+554.dat
+src/cal_star/refdata/1d_sp/Massey1998/PG 0939+262.dat
+src/cal_star/refdata/1d_sp/Massey1998/PG 1121+145.dat
+src/cal_star/refdata/1d_sp/Massey1998/PG 1545+035.dat
+src/cal_star/refdata/1d_sp/Massey1998/PG 1708+602.dat
+src/cal_star/refdata/1d_sp/Massey1998/Wolf 1346.dat
 src/cal_star/refdata/1d_sp/ctiocal/bd25.dat
 src/cal_star/refdata/1d_sp/ctiocal/bd8.dat
 src/cal_star/refdata/1d_sp/ctiocal/cd32.dat
@@ -119,22 +146,35 @@ src/cal_star/refdata/1d_sp/gemini/pg1121145.dat
 src/cal_star/refdata/1d_sp/gemini/pg1545035.dat
 src/cal_star/refdata/1d_sp/gemini/pg1708602.dat
 src/cal_star/refdata/1d_sp/gemini/wolf1346.dat
-src/cal_star/refdata/1d_sp/oke1990/bd284211.dat
-src/cal_star/refdata/1d_sp/oke1990/bd75325.dat
-src/cal_star/refdata/1d_sp/oke1990/feige110.dat
-src/cal_star/refdata/1d_sp/oke1990/feige34.dat
-src/cal_star/refdata/1d_sp/oke1990/feige67.dat
-src/cal_star/refdata/1d_sp/oke1990/g13831.dat
-src/cal_star/refdata/1d_sp/oke1990/g191b2b.dat
-src/cal_star/refdata/1d_sp/oke1990/g19374.dat
-src/cal_star/refdata/1d_sp/oke1990/g249.dat
-src/cal_star/refdata/1d_sp/oke1990/gd108.dat
-src/cal_star/refdata/1d_sp/oke1990/gd248.dat
-src/cal_star/refdata/1d_sp/oke1990/hz21.dat
-src/cal_star/refdata/1d_sp/oke1990/ltt9491.dat
+src/cal_star/refdata/1d_sp/oke1990/BD+25d4655.dat
+src/cal_star/refdata/1d_sp/oke1990/BD+28D4211.dat
+src/cal_star/refdata/1d_sp/oke1990/BD+33d2642.dat
+src/cal_star/refdata/1d_sp/oke1990/BD+75d325.dat
+src/cal_star/refdata/1d_sp/oke1990/Feige 110.dat
+src/cal_star/refdata/1d_sp/oke1990/Feige 34.dat
+src/cal_star/refdata/1d_sp/oke1990/Feige 66.dat
+src/cal_star/refdata/1d_sp/oke1990/Feige 67.dat
+src/cal_star/refdata/1d_sp/oke1990/G138-31.dat
+src/cal_star/refdata/1d_sp/oke1990/G158-100.dat
+src/cal_star/refdata/1d_sp/oke1990/G191B2B.dat
+src/cal_star/refdata/1d_sp/oke1990/G193-74.dat
+src/cal_star/refdata/1d_sp/oke1990/G24-9.dat
+src/cal_star/refdata/1d_sp/oke1990/G60-54.dat
+src/cal_star/refdata/1d_sp/oke1990/GD 248.dat
+src/cal_star/refdata/1d_sp/oke1990/GD 50.dat
+src/cal_star/refdata/1d_sp/oke1990/GD108.dat
+src/cal_star/refdata/1d_sp/oke1990/GRW+70d5824.dat
+src/cal_star/refdata/1d_sp/oke1990/HD 93521.dat
+src/cal_star/refdata/1d_sp/oke1990/HZ 21.dat
+src/cal_star/refdata/1d_sp/oke1990/HZ 4.dat
+src/cal_star/refdata/1d_sp/oke1990/HZ 44.dat
+src/cal_star/refdata/1d_sp/oke1990/LTT 9491.dat
+src/cal_star/refdata/1d_sp/oke1990/NGC 7293.dat
+src/cal_star/refdata/1d_sp/oke1990/SA95-42.dat
+src/cal_star/refdata/Photometric/Landolt1992/Landolt1992.xlsx
 src/cal_star/refdata/starlists/Hamuy1992/Hamuy1992.xlsx
 src/cal_star/refdata/starlists/Hamuy1992/~$Hamuy1992.xlsx
 src/cal_star/refdata/starlists/Massey1998/Massey1998.xlsx
 src/cal_star/refdata/starlists/ctiocal/Hamuy1992.xlsx
 src/cal_star/refdata/starlists/gemini/Hamuy1992.xlsx
-src/cal_star/refdata/starlists/oke1990/Hamuy1992.xlsx
+src/cal_star/refdata/starlists/oke1990/oke1990.xlsx
