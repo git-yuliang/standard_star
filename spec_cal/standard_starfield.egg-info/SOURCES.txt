@@ -1,0 +1,7 @@
+setup.py
+src/__init__.py
+standard_starfield.egg-info/PKG-INFO
+standard_starfield.egg-info/SOURCES.txt
+standard_starfield.egg-info/dependency_links.txt
+standard_starfield.egg-info/requires.txt
+standard_starfield.egg-info/top_level.txt

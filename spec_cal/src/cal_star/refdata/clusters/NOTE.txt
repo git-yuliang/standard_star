@@ -1,0 +1,8 @@
+Notes. Photometric data are taken from Crawford et al. (1970) and
+Johnson & Morgan (1955) for NGC 869 and NGC 884; Crawford
+et al. (1977) for NGC 6910; Canterna et al. (1979) for NGC 1039,
+and Crawford (1994) for NGC 1502. Spectral types, when available,
+are taken from Schild (1965), Slettebak (1968) and Johnson & Morgan
+(1955) for NGC 869 and NGC 884; Morgan & Harris (1956) and
+Hoag & Applequist (1965) for NGC 6910; Abt & Levato (1977) for
+NGC 1039, and Hoag & Applequist (1965) for NGC 1502.

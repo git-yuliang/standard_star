@@ -90,3 +90,15 @@ def default_sp(starlist,star):
     df=pd.read_excel(listname)
     print(df)   
     return template_wave,template_flux
+
+def star_sp(starlist,star):
+    starlist = starlist
+    star = star  
+    template_filename = os.path.join(refdata, '1d_sp', starlist,star + '.dat')
+    cat = pd.read_csv(template_filename, sep='\s+')
+    template_wave = cat.iloc[:,0].values      # unit should be in Angstrom
+    template_flux = cat.iloc[:,1].values      # unit should be in erg/s/cm^2/A 
+    listname = os.path.join(refdata, 'starlists', starlist,starlist + '.xlsx')
+    df=pd.read_excel(listname)
+    print(df)   
+    return template_wave,template_flux

@@ -5,10 +5,13 @@ cal_star.egg-info/dependency_links.txt
 cal_star.egg-info/requires.txt
 cal_star.egg-info/top_level.txt
 src/cal_star/__init__.py
+src/cal_star/sc_cluster.py
 src/cal_star/sc_photometry.py
 src/cal_star/sc_skymap.py
 src/cal_star/sc_sp.py
 src/cal_star/demo/demo.ipynb
+src/cal_star/demo/demo2_cluster.ipynb
+src/cal_star/demo/demo2_cluster.py
 src/cal_star/refdata/1d_sp/Hamuy1992/CD -32 9927.dat
 src/cal_star/refdata/1d_sp/Hamuy1992/CD -34 241.dat
 src/cal_star/refdata/1d_sp/Hamuy1992/EG 21.dat
@@ -171,7 +174,21 @@ src/cal_star/refdata/1d_sp/oke1990/HZ 44.dat
 src/cal_star/refdata/1d_sp/oke1990/LTT 9491.dat
 src/cal_star/refdata/1d_sp/oke1990/NGC 7293.dat
 src/cal_star/refdata/1d_sp/oke1990/SA95-42.dat
+src/cal_star/refdata/1d_sp/oke1990/bd284211.dat
+src/cal_star/refdata/1d_sp/oke1990/bd75325.dat
+src/cal_star/refdata/1d_sp/oke1990/feige110.dat
+src/cal_star/refdata/1d_sp/oke1990/feige34.dat
+src/cal_star/refdata/1d_sp/oke1990/feige67.dat
+src/cal_star/refdata/1d_sp/oke1990/g13831.dat
+src/cal_star/refdata/1d_sp/oke1990/g19374.dat
+src/cal_star/refdata/1d_sp/oke1990/g249.dat
+src/cal_star/refdata/1d_sp/oke1990/gd248.dat
+src/cal_star/refdata/1d_sp/oke1990/hz21.dat
+src/cal_star/refdata/1d_sp/oke1990/ltt9491.dat
 src/cal_star/refdata/Photometric/Landolt1992/Landolt1992.xlsx
+src/cal_star/refdata/clusters/NGC6397/h265s53a_I_0.1-2.4keV_cps1998.fits
+src/cal_star/refdata/clusters/NGC6397/heic0608b.tif
+src/cal_star/refdata/clusters/NGC6397/tif_infor.xlsx
 src/cal_star/refdata/starlists/Hamuy1992/Hamuy1992.xlsx
 src/cal_star/refdata/starlists/Hamuy1992/~$Hamuy1992.xlsx
 src/cal_star/refdata/starlists/Massey1998/Massey1998.xlsx

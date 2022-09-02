@@ -15,11 +15,11 @@ from setuptools import find_packages, setup, Command
 NAME = 'cal_star'
 DESCRIPTION = 'This project is used for standard star filed calibration.'
 URL = 'https://github.com/git-yuliang/standard_star.git'
-PYPI URL = 'https://pypi.org/project/cal-star/'
+#URL = 'https://pypi.org/project/cal-star/'
 EMAIL = "liangyuak@163.com",#"yuliang@shao.ac.cn",
 AUTHOR = "Yu Liang",
 REQUIRES_PYTHON = '>=3.7.0'
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
@@ -149,6 +149,10 @@ setup(
                         './refdata/starlists/ctiocal/*.xlsx',
                         './refdata/starlists/gemini/*.xlsx',
                         './refdata/Photometric/Landolt1992/*.xlsx',
+                        './refdata/clusters/NGC6397/*.tif',
+                        './refdata/clusters/NGC6397/*.fits',
+                        './refdata/clusters/NGC6397/*.xlsx',
                         './demo/*.ipynb',
+                        './demo/*.py',
      ]},  
 )
