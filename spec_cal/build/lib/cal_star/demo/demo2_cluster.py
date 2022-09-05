@@ -36,6 +36,7 @@ print(' Position (RA):	17 40 58.39\n '' Position (Dec):	-53° 44 19.90 \n ' 'Fie
 img = collt[0]
 print(img.shape)
 
+
 # =============================================================================
 # plt.figure(num = 'IMG0_show',figsize = [10,8]) 
 # plt.imshow(img,origin = 'lower')

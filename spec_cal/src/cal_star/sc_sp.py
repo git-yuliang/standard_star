@@ -13,9 +13,7 @@ import numpy as np
 import pandas as pd
 import os
 import astropy.io.fits as fits
-from scipy.integrate import simps
-import extinction
-import pdb
+
 
 path = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
 refdata = os.path.join(path, r'cal_star\refdata')

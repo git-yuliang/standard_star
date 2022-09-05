@@ -19,18 +19,15 @@ URL = 'https://github.com/git-yuliang/standard_star.git'
 EMAIL = "liangyuak@163.com",#"yuliang@shao.ac.cn",
 AUTHOR = "Yu Liang",
 REQUIRES_PYTHON = '>=3.7.0'
-VERSION = '0.1.1'
+VERSION = '0.1.2'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
     'pandas>=1.3.3',
     'numpy>=1.21.6',
-    'h5py>=2.8.0',
-    'einops>=0.3.2',
     'matplotlib>=3.2.2',
-    'astropy>=4.2.1',
-    'scipy>=1.1.0',
-    'extinction>=0.4.0'
+    'astropy>=4.3.1',
+    'scipy>=1.5.0',
 ]
 
 # What packages are optional?
@@ -152,6 +149,18 @@ setup(
                         './refdata/clusters/NGC6397/*.tif',
                         './refdata/clusters/NGC6397/*.fits',
                         './refdata/clusters/NGC6397/*.xlsx',
+                        './refdata/clusters/NGC6540/*.tif',
+                        './refdata/clusters/NGC6540/*.jpg',
+                        './refdata/clusters/NGC6540/*.xlsx',
+                        './refdata/clusters/47Tuc_NGC104/*.tif',
+                        './refdata/clusters/47Tuc_NGC104/*.jpg',
+                        './refdata/clusters/47Tuc_NGC104/*.xlsx', 
+                        './refdata/clusters/NGC6752/*.tif',
+                        './refdata/clusters/NGC6752/*.jpg',
+                        './refdata/clusters/NGC6752/*.xlsx',   
+                        './refdata/clusters/NGC6121/*.tif',
+                        './refdata/clusters/NGC6121/*.jpg',
+                        './refdata/clusters/NGC6121/*.xlsx',                          
                         './demo/*.ipynb',
                         './demo/*.py',
      ]},  

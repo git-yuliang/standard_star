@@ -186,9 +186,17 @@ src/cal_star/refdata/1d_sp/oke1990/gd248.dat
 src/cal_star/refdata/1d_sp/oke1990/hz21.dat
 src/cal_star/refdata/1d_sp/oke1990/ltt9491.dat
 src/cal_star/refdata/Photometric/Landolt1992/Landolt1992.xlsx
+src/cal_star/refdata/clusters/47Tuc_NGC104/heic1510a.tif
+src/cal_star/refdata/clusters/47Tuc_NGC104/tif_infor.xlsx
+src/cal_star/refdata/clusters/NGC6121/opo0319d.tif
+src/cal_star/refdata/clusters/NGC6121/tif_infor.xlsx
 src/cal_star/refdata/clusters/NGC6397/h265s53a_I_0.1-2.4keV_cps1998.fits
 src/cal_star/refdata/clusters/NGC6397/heic0608b.tif
 src/cal_star/refdata/clusters/NGC6397/tif_infor.xlsx
+src/cal_star/refdata/clusters/NGC6540/potw2233a.jpg
+src/cal_star/refdata/clusters/NGC6540/tif_infor.xlsx
+src/cal_star/refdata/clusters/NGC6752/heic1903a.tif
+src/cal_star/refdata/clusters/NGC6752/tif_infor.xlsx
 src/cal_star/refdata/starlists/Hamuy1992/Hamuy1992.xlsx
 src/cal_star/refdata/starlists/Hamuy1992/~$Hamuy1992.xlsx
 src/cal_star/refdata/starlists/Massey1998/Massey1998.xlsx
