@@ -19,7 +19,7 @@ URL = 'https://github.com/git-yuliang/standard_star.git'
 EMAIL = "liangyuak@163.com",#"yuliang@shao.ac.cn",
 AUTHOR = "Yu Liang",
 REQUIRES_PYTHON = '>=3.7.0'
-VERSION = '0.1.2'
+VERSION = '0.1.3'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
@@ -138,13 +138,9 @@ setup(
                         './refdata/1d_sp/Hamuy1992/*.dat',
                         './refdata/1d_sp/oke1990/*.dat',
                         './refdata/1d_sp/Massey1998/*.dat',
-                        './refdata/1d_sp/ctiocal/*.dat',
-                        './refdata/1d_sp/gemini/*.dat',
                         './refdata/starlists/Hamuy1992/*.xlsx',
                         './refdata/starlists/oke1990/*.xlsx',
                         './refdata/starlists/Massey1998/*.xlsx',
-                        './refdata/starlists/ctiocal/*.xlsx',
-                        './refdata/starlists/gemini/*.xlsx',
                         './refdata/Photometric/Landolt1992/*.xlsx',
                         './refdata/clusters/NGC6397/*.tif',
                         './refdata/clusters/NGC6397/*.fits',
