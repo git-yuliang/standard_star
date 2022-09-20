@@ -1,6 +1,5 @@
 # standard_star
- standard_stars
-定标星场选取
+IFS 定标星场选取
 
 背景及意
 考虑到IFS光学系统性能、探测器响应、温度变化等因素，IFS测试定标环节将穿插覆盖其仪器研制及在轨服役全部阶段。 定标星场的选取直接影响到IFS在轨定标中辐射强度、光谱流量及波长、IFS及MCI视场位置等相关指标的精确性。
@@ -50,8 +49,10 @@ NGC6540
 NGC6752
 
 
-=== 2. Python包的调用(待进一步完善) ===
+=== 2. Python包的调用(debuging... 待进一步完善) ===
 构建cal-star python 包，可以用 pip install cal-satr 命令安装。 具体参考 PyPI 及github 相关资源。 cal-star包含四个子函数：
+
+
 sc_sp: 用于展示光谱定标星中的光谱流量相关信息；
 
 
