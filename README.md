@@ -22,6 +22,8 @@ Landolt 标准场（辐射强度标准星）
 HST Spectrophotometric Standards（光谱标准星）
 STIS Spectrophotometric Standards（光谱标准星）
 Oke1990；Hamuy et al1992; Massey1998. Spectrophotometric Standards （光谱标准星）
+
+
 === 3. 几何定标标准星 ===
 M67 - MCI/IFS （几何标定星团）
 47 Tuc
@@ -38,16 +40,28 @@ Landolt1992
 Massey1998
 Hamuy1992
 Oke1990
+
+
 几何定标标准星团：
 NGC6397
 NGC6121
 47Tuc_NGC104
 NGC6540
 NGC6752
+
+
 === 2. Python包的调用(待进一步完善) ===
 构建cal-star python 包，可以用 pip install cal-satr 命令安装。 具体参考 PyPI 及github 相关资源。 cal-star包含四个子函数：
 sc_sp: 用于展示光谱定标星中的光谱流量相关信息；
+
+
 sc_skymap: 光谱定标星空间二维分布（RA,DEC）等相关数据；
+
+
 sc_photometry: 用于展示辐射强度定标星星表及空间二维分布（RA,DEC）相关信息；
+
+
 sc_cluster: 用于展示几何定标星团的数据及 6 arcsec 的 zoom in 效果。
+
+
 具体的函数调用参考demo.ipynb 及 demo2_cluster.ipynb 两个jupyter文件。 这两个文件被打包在'./cal-star/demo/'文件夹下,可以在 cal-star 安装路径下找到。
