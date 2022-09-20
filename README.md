@@ -67,5 +67,5 @@ sc_cluster: 用于展示几何定标星团的数据及 6 arcsec 的 zoom in 效�
 
 具体的函数调用参考demo.ipynb 及 demo2_cluster.ipynb 两个jupyter文件。 这两个文件被打包在'./cal-star/demo/'文件夹下,可以在 cal-star 安装路径下找到。
 
-也在这里：
+也在这里（demo,demo2 两个程序前半段程序没有采用cal-star包，后半段采用cal-star和前半段对比）：
 https://github.com/git-yuliang/standard_star/tree/main/spec_cal/src/cal_star/demo
